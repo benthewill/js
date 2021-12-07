@@ -10,26 +10,12 @@ function sumArr(arr) {
     console.log(...arr);
 
     let arr2 = [...arr]
-
-
-    // let sum = 0
-    // let items = arr
-
-    // console.log(items);
-
-    // for (let item of items) {
-    //     sum += item
-    // }
 }
 
 console.log(sumArr(numList));
 
 function sumTest(...args) {
     let sum = 0
-    // console.log(sum);
-
-    // console.log(typeof args[0]);
-    // console.log(isObject(args[0]));
     
     function isObject(val) {
         if (val === null) {
@@ -37,14 +23,6 @@ function sumTest(...args) {
         }
         return ((typeof val === `function`) || (typeof val === `object`))
     }
-
-    // if (!Array.isArray(...args) && typeof args[0] == Array) {
-    //     for (let arg of args) {
-    //         sum += arg
-    //     }
-    //     return sum
-    // }
-
 
     if (isObject(args[0])) {
         for (let [name, num] of Object.entries(args[0])) {
@@ -55,8 +33,6 @@ function sumTest(...args) {
 
     else 
         return args.flat().reduce((a,b) => a + b)
-    
-
 }
 
 console.log(sumTest(numList));
