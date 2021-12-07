@@ -1,0 +1,37 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-family:Arial ;
+    font-weight:200px;
+    font-size:40px;
+}
+
+form{
+    display:block;
+}
+
+.nameQuery{
+    font-weight: bold; 
+}
+
+/* #hobbies-wrap{
+    white-space: pre-line;
+} */
+
+#hobbies-list{
+    display:inline
+}
+
+label{
+    margin-top:20%;
+}
+
+#submit-button{
+    margin-top:25px ;
+}
+
+#who{
+    margin-top:20px;
+}

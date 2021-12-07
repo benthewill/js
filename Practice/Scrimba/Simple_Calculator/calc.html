@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <!-- <meta name = "viewport" content = "device=device-width, initial-scale = 1"> -->
+        <title> 
+            Simple Calculator Practice
+        </title>
+        <link rel = "stylesheet" href = "calc.css">
+    </head>
+    <body>
+        <h1>
+            Simple Calculator for Practice
+        </h1>
+
+        <p id = "output"></p>
+        <input type = "text" name="number-field" id = "number-field">
+
+        <div id = "operation-buttons-field">
+            <button id = "add"> + </button>
+            <button id = "sub"> – </button>
+            <button id = "mul"> X </button>
+            <button id = "div"> : </button>
+        </div>
+
+        <div id = "calculate-button">
+            <button id = "calculate" onclick = "calculate ()"> Calculate </button>
+        </div>
+
+        <div id = "calculation">
+            <span id = "calculation-field"></span>
+            <span id = "output-field"></span>
+        </div>
+
+        <script src = "calc.js"></script>
+    </body>
+</html>

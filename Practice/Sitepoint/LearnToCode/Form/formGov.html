@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta charset = "utf-8">
+
+        <title> Form Exercise</title>
+        <link rel = "stylesheet" href = "formGov.css">
+    </head>
+    <body>
+        <h1>
+            Form Exercise
+        </h1>
+
+        <div class = "form">
+            <form name = "formField" class = "form">
+                <p class = "nameQuery">First Name</p>
+                <input type = "text" id = "firstnamefield" name = "firstnamefield">
+                <p class = "nameQuery">Last Name</p>
+                <input type = "text" id = "lastnamefield" name = "lastnamefield"> 
+                <p class = "nameQuery">Age</p>
+                <input type = "number" id = "agefield" name = "agefield"> 
+
+                <p class = "nameQuery">Gender</p>
+                <input type = "radio" id = "femalechoice" name = "genderchoice" value = "female">
+                    <label for = "femalechoice">Female</label>
+                <input type = "radio" id = "malechoice" name = "genderchoice" value = "male">
+                    <label for = "malechoice">Male</label>
+
+                <p class = "nameQuery">Orientation</p>
+                <input type = "radio" id = "straightchoice" name = "orientationchoice" value = "straight">
+                    <label for = "genderchoice">Straight</label>
+                <input type = "radio" id = "Gaychoice" name = "orientationchoice" value = "Gay">
+                    <label for = "genderchoice">Gay</label>
+                <input type = "radio" id = "bichoice" name = "orientationchoice" value = "bi">
+                    <label for = "genderchoice">BiSexual</label>
+
+                <p class = "nameQuery">Which best defines your turmoil?</p>
+                <div id = "turmoilswrap">
+                    <div class = "turmoilslist">
+                        <input type = "checkbox" id = "topple" name = "turmoils">
+                        <label for = "turmoils" class = "turmoilslabel">Toppling the Governmental Structure</label>
+                    </div>
+                    <div class = "turmoilslist">
+                        <input type = "checkbox" id = "ponder" name = "turmoils">
+                        <label for = "turmoils" class = "turmoilslabel">Pondering the Aim of Seconds Past</label>
+                    </div>
+                    <div class = "turmoilslist">
+                        <input type = "checkbox" id = "rid" name = "turmoils">
+                        <label for = "turmoils" class = "turmoilslabel">Ridding Oneself of Frivolous Poverty</label>
+                    </div>
+                    <div class = "turmoilslist">
+                        <input type = "checkbox" id = "battle" name = "turmoils">
+                        <label for = "turmoils" class = "turmoilslabel">Battling the Many Nemeses of Old</label>
+                    </div>
+                </div>
+                
+                <p class = "nameQuery">How much better are you compared to others?</p>
+                <input type = "range" id = "better" name = "better" max = "10" min = "1">
+                <span for = "better" id = "betterslider"> </span>
+
+                <p class = "nameQuery"> Choose one hobby amongst many:</p>
+                <select name = "hobbies" id = "hobbies">
+                    <option value = "Girating">Girating</option>
+                    <option value = "Wanking">Wanking</option>
+                    <option value = "StuporInducing">StuporInducing</option>
+                    <option value = "Electrify">Electrify</option>
+                    <option value = "Aquaticize">Aquaticize</option>
+                    <option value = "Externalize">Externalize</option>
+                    <option value = "Mitosis">Mitosis</option>
+                    <option value = "Disintegrate">Disintegrate</option>
+                    <option value = "Discombobulate">Discombobulate</option>
+                </select>
+                <div id = "submit-button"> 
+                    <button type = "submit"> Submit </button>
+                </div>
+                </form>
+        </div>
+        <div id = "who">
+
+        </div>
+    <script src = "formGov.js"></script>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "device = device-width, initial-scale = 1">
+
+        <title>
+            Nike Testing
+        </title>
+
+        <link rel = "stylesheet" href = "nike.css">
+    </head>
+    <body>
+        <h1>
+            NIKE AIRMAX v2.0
+        </h1>
+        <p>
+            $ 749.00
+        </p>
+        
+        <form name = "Submission">
+            <p> Insert your Name Here : </p>
+            <input type = "text" id = "name-field" name = "yourName">
+            
+            <p> Choose the Amount of your Order Here : </p>
+            <input type = "radio" id = "single-amount" name = "amount" value = "Single" checked>
+                <label for = "single-amount">SINGLE</label><br>
+            <input type = "radio" id = "double-amount" name = "amount" value = "Double">
+                <label for = "double-amount">DOUBLE</label><br>
+            <input type = "radio" id = "triple-amount" name = "amount" value = "Triple">
+                <label for = "triple-amount">TRIPLE</label>
+            
+            <p> Choose the Color : </p>
+            <input type = "radio" id = "red-color" name = "color" value = "Red" checked>
+            <label for = "red-color">RED</label><br>
+            <input type = "radio" id = "yellow-color" name = "color" value = "Yellow">
+            <label for = "yellow-color">YELLOW</label>
+        </form>
+        
+        <button id = "buy-button"> Order Summary </button>
+
+        <p id = "summary-field-title">
+        </p>
+        <p id = "summary-field"></p>
+
+
+        <script src = "nike.js"></script>
+    </body>
+</html>

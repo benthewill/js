@@ -1,0 +1,17 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: larger;
+}
+
+div{
+    padding-top:10px
+}
+
+#calculation-field-par{
+    font-weight:200;
+    font-size:larger
+}
+
