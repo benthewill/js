@@ -3,11 +3,12 @@ let obj = {
     vegeta : `final flash`
 }
 
-Object.entries()
 
-let arr2 = []
+let arr2 = [3,4,5,6]
 
-arr2.push(Object.keys(obj))
-console.log(arr2);
 
-//test
+let arr3 = [1,2]
+
+arr3.push.apply(arr3, arr2)
+
+console.log(arr3);
