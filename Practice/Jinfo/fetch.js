@@ -36,7 +36,14 @@ fetch('https://jsonplaceholder.typicode.com/posts/1')
 
 console.log(userWork);
 
-functio
+function gettingThings(url) {
+    return fetch(url)
+        .then(response => response.json())
+}
+
+function gettingTitle(whichID) {
+    return gettingThings(`https://jsonplaceholder.typicode.com/posts/${whichID}`)
+}
 
 
 
